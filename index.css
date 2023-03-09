@@ -1,0 +1,48 @@
+body{
+             background-color: azure;
+             margin: 0;
+             padding: 0;
+}
+
+.container{
+             width: 500px;
+             margin: 0 auto;
+             text-align: center;
+}
+/* .container:hover{
+             color: burlywood;
+             transition: 2s;
+} */
+.form-group{
+margin: 20px 0;
+text-align: left;
+}
+label{
+             display: block;
+             font-weight: bold;
+             margin-bottom: 10px;
+}
+input[type='number']{
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border-radius: 5px;
+border: solid 2px greenyellow;
+margin-bottom: 20px;
+}
+button{
+             padding: 10px 20px;
+             background-color: gray;
+             color: #fff;
+             border-radius: 5px;
+             cursor: pointer;
+             border: none;
+}
+.myWarpTable{
+             text-align: left;
+             border-collapse: collapse ;
+}
+.myWarpTable td{
+             border: solid 1px gray;
+             padding: 5px 10px;
+}
